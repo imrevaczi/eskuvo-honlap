@@ -1,38 +1,3 @@
-<!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Gina & Laci esküvője!</title>
-    <meta name="description" content="Szeretnénk meghívni erre a csodálatos alkalomra. Ünnepeljünk együtt!">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Gina & Laci esküvője!">
-    <meta property="og:description" content="Szeretnénk meghívni erre a csodálatos alkalomra. Ünnepeljünk együtt!">
-    <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
-    <meta property="og:type" content="website">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="dist/css/styles.min.css">
-    <link rel="stylesheet" href="css/queries.css">
-    <link rel="stylesheet" href="dist/css/animate.min.css">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body id="top">
 <!--[if lt IE 8]>
 <p class="browserupgrade">Sajnos <strong>túl régi</strong> böngészőt használsz. Ajánlom a <a href="https://www.google.com/intl/hu_hu/chrome/">chrome bönégsző</a> letöltését</p>
 <![endif]-->
@@ -351,28 +316,3 @@
         </div>
     </section>
 </main>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center content">
-                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p><a href="#">adatkezelési tájékoztató</a><br>
-                <a href="https://github.com/jerryxcoke/wedding-website" target="blank" class="credits">This is an open source project - Build from a lovely project<span class="fa fa-heart pulse2"></span></a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="dist/js/jquery.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.mb.YTPlayer.min.js"></script>
-<script src="dist/js/jquery.waypoints.min.js"></script>
-<script src="js/vendor/ouical.js"></script>
-<script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuvTGkG3JA_l7sIg8NWrFybcmgYxGysTQ&callback=initMap&library=places"></script>
-</body>
-</html>
