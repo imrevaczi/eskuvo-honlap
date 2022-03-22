@@ -1,3 +1,6 @@
+<?php
+get_header();
+?>
 <!--[if lt IE 8]>
 <p class="browserupgrade">Sajnos <strong>túl régi</strong> böngészőt használsz. Ajánlom a <a href="https://www.google.com/intl/hu_hu/chrome/">chrome bönégsző</a> letöltését</p>
 <![endif]-->
@@ -6,7 +9,7 @@
         <header -->
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
                 <div class="container">
-                    <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                    <div class="logo"><a href="#"><img src="<?= TEMPLATE_URI ?>img/logo.png" alt="Logo"></a></div>
                     <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>                  
@@ -316,3 +319,6 @@
         </div>
     </section>
 </main>
+<?php
+get_footer();
+?>
