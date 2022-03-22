@@ -46,8 +46,8 @@ get_header();
         </div>
         <div class="row">
             <div class="col-sm-4 .d-none .d-sm-block"></div>
-            <div class="col-sm-4 .d-none .d-sm-block text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">Visszajelzek</a></div>
+            <div class="col-sm-4 .d-none .d-sm-block text-center">
+                <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">Visszajelzek</a></div>
             <div class="col-sm-4 .d-none .d-sm-block"></div>
         </div>
     </div>
@@ -59,8 +59,8 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Alig várjuk</h3>
-                    <p>Az időpont 2022. július 9. és nagyon Szeretnénk, hogy veletek együtt ünnepelhessünk!</p>
+                    <h3><?= $invitation_cim ?></h3>
+                    <p><?= $invitation_tartalom ?></p>
                 </div>
             </div>
         </div>
@@ -70,17 +70,13 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 class="header">hogyan találkoztunk</h3>
+                    <h3 class="header"><?= $intro_cim ?></h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 d-none d-md-block"><img src="<?= TEMPLATE_URI ?>img/balos.png" class="balos"></div>
                 <div class="col-md-6">
-                    <p>
-                       Találkozásunk több mint 10 éve történt, és mindezt egyik barátunknak köszönhetjük, aki leszervezett nekünk egy vakrandit!
-                       A randi jól sikerült, a további találkozások is ígéretesek voltak, mégis úgy alakult a helyzet, hogy másfelé vitt az élet minket. Sosem felejtettük el a másikat, és mindig ha éppen alkalmunk volt, üzentünk egymásnak, megpróbáltunk leszervezni egy egy találkozót.
-                       Több mint 7 év barátság után végül egymás mellett kötöttünk ki és kicsivel több mint 3 év kapcsolat után egybekelünk!
-                    </p>
+                    <p><?= $intro_tartalom ?></p>
                 </div>
                 <div class="col-md-3 d-none d-md-block"><img src="<?= TEMPLATE_URI ?>img/jobbos.png" class="jobbos"></div>
             </div>
