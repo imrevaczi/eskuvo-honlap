@@ -73,7 +73,7 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 d-none d-md-block"><img src="img/balos.png" class="balos"></div>
+                <div class="col-md-3 d-none d-md-block"><img src="<?= TEMPLATE_URI ?>img/balos.png" class="balos"></div>
                 <div class="col-md-6">
                     <p>
                        Találkozásunk több mint 10 éve történt, és mindezt egyik barátunknak köszönhetjük, aki leszervezett nekünk egy vakrandit!
@@ -81,11 +81,11 @@ get_header();
                        Több mint 7 év barátság után végül egymás mellett kötöttünk ki és kicsivel több mint 3 év kapcsolat után egybekelünk!
                     </p>
                 </div>
-                <div class="col-md-3 d-none d-md-block"><img src="img/jobbos.png" class="jobbos"></div>
+                <div class="col-md-3 d-none d-md-block"><img src="<?= TEMPLATE_URI ?>img/jobbos.png" class="jobbos"></div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 d-md-none"><img src="img/balos.jpg" class="balos"></div>
-                <div class="col-sm-4 col-sm-push-2 col-xs-6 d-md-none"><img src="img/jobbos.jpg" class="jobbos"></div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 d-md-none"><img src="<?= TEMPLATE_URI ?>img/balos.jpg" class="balos"></div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 d-md-none"><img src="<?= TEMPLATE_URI ?>img/jobbos.jpg" class="jobbos"></div>
             </div>
         </div>
     </section>
