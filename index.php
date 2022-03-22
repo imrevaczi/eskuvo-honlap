@@ -1,4 +1,5 @@
 <?php
+extract(get_option("nagynapja-settings"));
 get_header();
 ?>
 <!--[if lt IE 8]>
@@ -39,7 +40,7 @@ get_header();
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div class="hero-content text-center">
-                    <h1>Gina <span class="fas fa-heart"></span> Laci</h1>
+                    <h1><?= $meny ?> <span class="fas fa-heart"></span> <?= $vo ?></h1>
                 </div>
             </div>
         </div>

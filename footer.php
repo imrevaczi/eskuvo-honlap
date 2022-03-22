@@ -18,6 +18,6 @@
 <script src="<?= TEMPLATE_URI ?>js/vendor/ouical.js"></script>
 <script src="<?= TEMPLATE_URI ?>js/scripts.min.js"></script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=<?=GMAPS_KEY ?>&callback=initMap&library=places"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=<?= GMAPS_KEY ?>&callback=initMap&library=places"></script>
 </body>
 </html>
